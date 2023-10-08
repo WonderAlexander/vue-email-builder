@@ -1,0 +1,45 @@
+[
+    {
+        "type": "block",
+        "id": "AVhwYJSa5DtRM4DUYCUOM",
+        "name": "Header",
+        "title": "Заголовок",
+        "content": "Заголовок",
+        "icon": "https://pic.mos.ru/srv/images/a9907000cf55bf21d5a646184dfdd2ba.png",
+        "component": {
+            "__name": "Header",
+            "props": [
+                "block",
+                "placeholder",
+                "content"
+            ],
+            "__hmrId": "a81738bd",
+            "__file": "/Users/wonderalexander/Desktop/dit-email-builder-dit — копия/components/Header.vue"
+        }
+    },
+    {
+        "name": "DropZone",
+        "component": {
+            "__name": "DropZone",
+            "__hmrId": "779fb5c9",
+            "__file": "/Users/wonderalexander/Desktop/dit-email-builder-dit — копия/components/DropZone.vue"
+        }
+    },
+    {
+        "type": "block",
+        "id": "a8xpArm1Xh7SIizlM2OdH",
+        "name": "Banner",
+        "title": "Баннер",
+        "icon": "https://pic.mos.ru/srv/images/d3bad12dfa7e8343e26684b6e737ebbf.png",
+        "src": "https://placehold.co/1030x340",
+        "content": "",
+        "component": {
+            "__name": "Banner",
+            "props": [
+                "src"
+            ],
+            "__hmrId": "76049b2e",
+            "__file": "/Users/wonderalexander/Desktop/dit-email-builder-dit — копия/components/Banner.vue"
+        }
+    }
+]
