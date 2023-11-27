@@ -6,9 +6,9 @@ Drag-n-Drop конструктор email-рассылок на Vue.js созда
 - [Vue3](https://v3.ru.vuejs.org/)
 - [Nuxt](https://nuxt.com/)
 - [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
-- [Vue-Quill] (https://vueup.github.io/vue-quill/)
-- [Pinia] (https://pinia.vuejs.org/)
-- [nanoid] (https://www.npmjs.com/package/nanoid)
+- [Vue-Quill](https://vueup.github.io/vue-quill/)
+- [Pinia](https://pinia.vuejs.org/)
+- [nanoid](https://www.npmjs.com/package/nanoid)
 
 ## Важно
 Приложение создавалось исключительно дял использования сотрудниками отдела и имеет корпоративные ассеты и прочие элементы бренда компании!
