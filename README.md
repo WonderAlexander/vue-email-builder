@@ -1,42 +1,41 @@
-# Nuxt 3 Minimal Starter
+# HTML-конструктор шаблонов писем
+Drag-n-Drop конструктор email-рассылок на Vue.js созданные для внутреннего использования командой коммуникаций.
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+## Стек
+- [Vue3](https://v3.ru.vuejs.org/)
+- [Nuxt](https://nuxt.com/)
+- [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+- [Vue-Quill] (https://vueup.github.io/vue-quill/)
+- [Pinia] (https://pinia.vuejs.org/)
+- [nanoid] (https://www.npmjs.com/package/nanoid)
 
-Make sure to install the dependencies:
+## Важно
+Приложение создавалось исключительно дял использования сотрудниками отдела и имеет корпоративные ассеты и прочие элементы бренда компании!
 
-```bash
-# yarn
-yarn install
+## Функционал 
+Конструктор позволяет создавать шаблон html-email письма для последующей загрузки в систему рассылок. Структура разделена на блоки (составные части или секции) и контент ( составные части блоков), экспорт выдает файлы для загрузки в систему рассылок и файл для загрузки в сам конструктор, если необходимо внести правки в ранее созданный шаблон.
 
-# npm
-npm install
+## Использование
 
-# pnpm
-pnpm install
+
+### Установка зависимостей
+Для установки зависимостей, выполните команду:
+```sh
+$ npm install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`
-
-```bash
+### Запуск Development сервера
+Чтобы запустить сервер для разработки, выполните команду:
+```sh
 npm run dev
 ```
 
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
+### Создание билда
+Чтобы выполнить production сборку, выполните команду: 
+```sh
+npx nuxi generate
 ```
 
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Команда проекта
+Александр Болдин — Front-End
